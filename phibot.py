@@ -65,8 +65,7 @@ def handle_command(command, channel):
 
 def parse_slack_output(slack_rtm_output):
     """
-    The Slack Real Time Messaging API is an events firehose.
-    This parsing function returns none unless a message is directed at the bot, based on its ID
+    Returns none unless a message is directed at the bot, based on its ID
     This also scans the text for PHI and removes it if it finds something suspicious
     """
     output_list = slack_rtm_output
