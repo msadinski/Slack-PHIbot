@@ -1,5 +1,10 @@
-1. activate "slack" environment
-2. $ export SLACK_BOT_TOKEN="***" bot token here
-3. run print_bot_id
-4. $ export BOT_ID="{get from step 3}"
-5. run phibot
+Required Libraries:
+- os
+- time
+- slackclient
+
+To Run:
+$ export SLACK_BOT_TOKEN="{bot token}"
+$ python print_bot_id.py
+$ export BOT_ID="{get from step 3}"
+$ python phibot.py
