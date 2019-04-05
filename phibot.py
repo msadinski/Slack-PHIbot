@@ -39,7 +39,7 @@ def search_string(text):
 def set_phi_alert(output, triggered_text):
     """
     Handles the case where phi was found
-    Deletes the original message and subs in the anonymized message
+    (future) Deletes the original message and subs in the anonymized message
     Posts a warning message from the bot
     """
     #slack_client.api_call('chat.update', channel = output['channel'], text = triggered_text, ts = output['ts'], as_user=True)
